@@ -1,10 +1,14 @@
-html{line-height:1;font-family:Superscratchy}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-@font-face{font-family:avenir-roman;src:url(../fonts/avenir-roman.otf) format("opentype");}
+@font-face {
+    font-family: avenir-roman;
+    src: url("../fonts/AvenirLTStd-Roman.otf");
+}
 
-@font-face{font-family:founder;src:url(../fonts/Founders\ Grotesk/reg.otf) format("opentype");font-weight:400}
-
-@font-face{font-family:founder;src:url(../fonts/Founders\ Grotesk/bold.otf) format("opentype");font-weight:700}
+@font-face {
+    font-family: Futura;
+    src: url("../fonts/FUTURA MEDIUM BT.TTF");
+}
 
 body{font-family:serif!important}.header{position:fixed;background:#000;z-index:5;top:0;width:100%}
 
@@ -42,9 +46,9 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
 
 .scaff{font-size:80px;font-weight:700;padding-top:40vh}
 
-.title{color:#e03a4e;font-family:Avenir;font-size:140px;margin-top:20px;line-height:40px}
+.title{font-family: 'Nunito', sans-serif; color:#000000; font-size:20px;margin-top:20px;line-height:40px}
 
-.subtitle{color:#e03a4e;font-family:audrey;font-weight:700;font-size:50px;margin-top:600px;line-height:160px}
+.subtitle{color:#e03a4e;font-family:"Futura";font-weight:700;font-size:50px;margin-top:600px;line-height:160px}
 
 .title-art{width:100%;height:100%;object-fit:cover;padding:15px}
 
@@ -54,43 +58,43 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
 
 .atallah{text-align:right;padding-right:15px;margin-top:30px;padding-bottom:15px}
 
-.blackcaption{font-size:30px;color:#000;font-family:founder;padding-left:300px}
+.blackcaption{font-size:30px;color:#000;font-family:"Futura";padding-left:300px}
 
-.emptyvessel{color:#000;font-family:founder;padding-left:50px;margin-top:30px}
+.emptyvessel{color:#000;font-family:"Futura";padding-left:50px;margin-top:30px}
 
-.mom{color:#fff;font-family:founder;margin-left:80px;margin-top:30px}
+.mom{color:#fff;font-family:"Futura";margin-left:80px;margin-top:30px}
 
 .scrollable{overflow-x:scroll}
 
-.toc{color:#1c165c;font-family:audrey;text-align:right;margin-top:40vh;font-weight:700;font-size:80px}
+.toc{color:#8BA484;font-family:"Futura";text-align:left;margin-top:10px;font-weight:700;font-size:60px}
 
-.table{font-family:founder;text-align:left;margin-top:20vh;font-size:20px}
+.table{font-family:"Futura";text-align:left;margin-top:20vh;font-size:20px}
 
-.cap{font-size:20px;color:#e03a4e;font-family:founder;padding-left:40px}
+.cap{font-size:20px;color:#e03a4e;font-family:"Futura";padding-left:40px}
 
-.lucas{color:#000;font-family:founder;margin-top:30px;text-align:center}
+.lucas{color:#000;font-family:"Futura";margin-top:30px;text-align:center}
 
 .bold{font-weight:700}.lucart{width:100%;height:100%;object-fit:contain}
 
-.carey{font-size:25px;color:#000;font-family:founder}
+.carey{font-size:25px;color:#000;font-family:"Futura"}
 
-.lucap{font-size:35px;color:#000;padding-bottom:-20px;font-family:founder;margin-left:0;text-align:center;z-index:10}
+.lucap{font-size:35px;color:#000;padding-bottom:-20px;font-family:"Futura";margin-left:0;text-align:center;z-index:10}
 
 .inbetween{height:100px}
 
-.dualcap{font-size:30px;color:#000;font-family:founder;margin-top:625px;text-align:center}
+.dualcap{font-size:30px;color:#000;font-family:"Futura";margin-top:625px;text-align:center}
 
 .dual{width:100%;height:100%;object-fit:contain}
 
 .nick{background-image:url(../visual-art/raffoul-nick.png);background-size:contain}
 
-.shelly{color:#000;font-family:founder;margin-top:30px;text-align:left}
+.shelly{color:#000;font-family:"Futura";margin-top:30px;text-align:left}
 
-.nicky{color:#000;font-family:founder;margin-top:710px;text-align:left;padding-left:-100px}
+.nicky{color:#000;font-family:"Futura";margin-top:710px;text-align:left;padding-left:-100px}
 
 .title-contain{width:100%;height:auto; object-fit:contain; padding-top: 40px;}
 
-.daria{font-size:30px;color:#000;font-family:founder;text-align:center}
+.daria{font-size:30px;color:#000;font-family:"Futura";text-align:center}
 
 .transition{background-image:url(../visual-art/gradient.jpg);background-size:contain}
 
@@ -98,8 +102,16 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
 
 .half-height{height:500px}
 
-.serene{font-size:30px;color:#fff;font-family:founder;text-align:left}
+.serene{font-size:30px;color:#000000;font-family:"Futura";text-align:left}
 
-.zeina{color:#fff;font-family:founder;margin-top:30px;text-align:left}
+.zeina{color:#000000;font-family:"Futura";margin-top:30px;text-align:left}
 
-.sek{font-size:35px;color:#000;font-family:founder;text-align:right}
+.sek{font-size:35px;color:#000;font-family:"Futura";text-align:right}
+
+.t {
+    font-family: "avenir-roman";
+
+}
+.p {
+    font-family: "Futura";
+}

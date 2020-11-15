@@ -1,0 +1,43 @@
+.modal-content{border-radius:0}
+body{font-family:raleway,sans-serif}
+.header-image{float:right}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.header{width: 100%; height: 100%; background-color:#ffffff;position:relative}
+.header h1{font-size:7em;color:#fff;line-height:90%}
+.header h2{font-size:4.7em;color:#fff;line-height:30%}
+.header h3{font-size:3em;color:#fff;line-height:90%}
+.headertext{position:absolute;top:8px;left:2em;color:#fff}
+.textstroke{text-shadow:-1px 0 #b99213,0 1px #b99213,1px 0 #b99213,0 -1px #b99213}
+a img{opacity:1}a:hover img{opacity:.6}hr{width:80%}
+pre{border:0;background-color:transparent;font-family:raleway,sans-serif}
+.container-fluid{padding-right:0;padding-left:0}
+.poemtitle{text-align:center;font-size:3.5em}
+.poemtext{text-align:left;font-size:1em}
+.poemcredit{text-align:center;font-style:italic;font-family:libre baskerville,serif;font-size:1.8em;padding-bottom:10px}
+.row{margin-left:0;margin-right:0}
+.credit{float:right}footer{margin:50px 0;text-align:center}
+.modal-title{display:none}
+.half-img{width:100%}
+.full-img{width:100%}
+.only-img{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+.audio-footer{position:fixed;z-index:1;bottom:-5px;width:100%;background-color:#fafafa;display:block;z-index:100}
+#song-name{padding-top:5px}#song-artist{padding-top:5px;padding-left:3px}audio{width:70vw}
+.nxt-sng{font-size:20px;position:relative;top:-9px;padding-left:5px;padding-right:20px;color:#5a5a5a}
+.song-credit{display:-webkit-inline-box;padding-bottom:10px;padding-left:10px;top:-10px;position:relative}
+.to-top{position:fixed;bottom:-4px;z-index:3;background-color:white;padding-bottom:10px;float:right;right:40px;font-size:22px;width:80px;text-align:center;border:1px solid #000;color:#000;font-weight:bolder}
+@media only screen and (max-width:700px){
+	.header-image{float:right;padding-top:220px;position:relative;background-color:#c5e4e4;width:112%;right:-20px}
+audio{width:8vw}
+.header h1{font-size:3em;color:#fff;line-height:90%}
+.header h2{font-size:3.5em;color:#fff;line-height:30%}
+.header h3{font-size:2em;color:#fff;line-height:90%}
+.to-top{position:fixed;bottom:-4px;z-index:3;background-color:black;padding-bottom:80px;float:right;right:10px;font-size:25px;width:55px;text-align:center;border:1px solid #000;color:black;font-weight:bolder;display:none}}
+ul a{cursor:pointer; color: #8BA484}

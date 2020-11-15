@@ -18,11 +18,19 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
 
 .black{background-color:#000}
 
+.beach{background-color: #8BA484}
+
 .fullheight{height:100vh}
+
+.smallheight{height: 70vh}
 
 .xheight{height:1000px}
 
+.midheight{height: 1100px}
+
 .xxheight{height:1300px}
+
+.xxxheight{height: 1650px}
 
 .center{text-align:center}
 

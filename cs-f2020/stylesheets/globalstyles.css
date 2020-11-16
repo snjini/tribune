@@ -110,6 +110,12 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
     color: #222222;
     text-align: center;
 }
+.cgcds{
+
+    float: left;
+    width: 80%;
+    height: auto;
+}
 
 .lucap{font-size:35px;color:#000;padding-bottom:-20px;font-family:"Futura";margin-left:0;text-align:center;z-index:10}
 
@@ -167,6 +173,29 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
     float: left;
     width: 50%;
     padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column2 {
+     float: left;
+     width: 65%;
+     padding: 10px;
+}
+
+.column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
 }
 
 /* Clearfix (clear floats) */

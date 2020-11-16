@@ -15,6 +15,10 @@
     font-family: LookingFlowers;
     src: url("../fonts/LookingFlowers-Caps.ttf") format("truetype");
 }
+@font-face {
+    font-family: LookingFlowers2;
+    src: url("../fonts/LookingFlowers-Caps.woff") 
+}
 
 body{font-family:serif!important}.header{position:fixed;background:#000;z-index:5;top:0;width:100%}
 
@@ -159,6 +163,8 @@ body{font-family:serif!important}.header{position:fixed;background:#000;z-index:
     font-family: "LookingFlowers";
     color: #222222;
 }
+
+
 
 .sito {
     width: fit-content;

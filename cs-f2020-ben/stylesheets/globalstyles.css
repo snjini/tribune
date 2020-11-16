@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: avenir-roman;
+    src: url("../fonts/AvenirLTStd-Roman.otf");
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("../fonts/FUTURA MEDIUM BT.TTF");
+}
+@font-face {
+    font-family: LookingFlowers;
+    src: url("../fonts/LookingFlowers-Caps.ttf") format("truetype");
+}
+
+body{font-family:serif!important}.header{position:fixed;background:#000;z-index:5;top:0;width:100%}
+
+.title{
+    font-family: "Playfair-Display";
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.inline-block {
+   display: inline-block;
+}
+.green{background-color:green}
+
+.red{background-color:red}
+
+.blue{background-color:blue}
+
+.yellow{background-color:#ff0}
+
+.purple{background-color:purple}
+
+.orange{background-color:orange}
+
+.white{background-color:#fff}
+
+.black{background-color:#000}
+
+.beach{background-color: #8BA484}
+
+.indigo{
+    background-color: #14213d;
+}
+
+.fullheight{height:100vh}
+
+.smallheight{height: 70vh}
+
+.xsheight{height: 700px}
+.xheight{height:1000px}
+
+.midheight{height: 1100px}
+
+.xxheight{height:1300px}
+
+.xxxheight{height: 1650px}
+
+.xxxxheight{height: 2000px}
+
+.center{text-align:center}
+
+.scaff{font-size:80px;font-weight:700;padding-top:40vh}
+
+.title{font-family: 'Nunito', sans-serif; color:#000000; font-size:20px;margin-top:20px;line-height:40px}
+
+.subtitle{color:#e03a4e;font-family:"Futura";font-weight:700;font-size:50px;margin-top:600px;line-height:160px}
+
+.title-art{width:100%;height:100%; object-fit: contain;padding:15px}
+
+.title-art-v{width:100%; height: auto; object-fit: contain; padding:15px;
+
+}
+
+.atallah1{padding-top:10vh;width:100%;height:100%;object-fit:cover}
+
+.atallah2{margin-top:17vh;width:100%;height:100%;object-fit:cover}
+
+.atallah{text-align:right;padding-right:15px;margin-top:30px;padding-bottom:15px}
+
+.blackcaption{font-size:30px;color:#000;font-family:"Futura";padding-left:300px}
+
+.schokalsky{color:#000;font-family:"Futura";padding-left:50px;margin-top:30px}
+
+.schokalskyt{color:#000;font-family:"LookingFlowers";padding-left:50px;margin-top:30px;}
+
+
+.mom{color:#fff;font-family:"Futura";margin-left:80px;margin-top:30px}
+
+.scrollable{overflow-x:scroll}
+
+.toc{color:#8BA484;font-family:"Futura";text-align:left;margin-left: 10px;margin-top:10px;font-weight:700;font-size:60px}
+
+.table{font-family:"Futura";text-align:right; margin-right: 30px;margin-top:20vh;font-size:20px}
+
+.cap{font-size:20px;color:#e03a4e;font-family:"Futura";padding-left:40px}
+
+.alana{
+    font-family:"Futura";
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right:30px;
+    width: 100%;
+    color: #222222;
+    text-align: center;
+    color:#222222;
+
+}
+
+.bold{font-weight:700}.lucart{width:100%;height:100%;object-fit:contain}
+
+.carey{font-size:25px;color:#000;font-family:"Futura"}
+
+.tristan {
+    font-family: "Futura";
+    font-size: 20px;
+    text-align: center;
+}
+.alanat{
+    font-family:"LookingFlowers";
+    font-size: 50px;
+    width: 100%;
+    color: #222222;
+    text-align: center;
+}
+.tristant{
+    font-family:"LookingFlowers";
+    font-size: 35px;
+    width: 100%;
+    color: #222222;
+    text-align: center;
+}
+
+.akella{
+    font-family:"LookingFlowers";
+    font-size: 35px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.cgcds{
+
+    float: left;
+    width: 80%;
+    height: auto;
+}
+
+.lowell{
+    font-family: "Futura";
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+
+}
+.lowellh{
+    font-family:"LookingFlowers";
+    font-size: 50px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.schattemanvaton {
+    font-family: "Futura";
+    font-size: 22px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+
+}
+
+.lucap{font-size:24px;color:#000;padding-bottom:-20px;font-family:"Futura";margin-left:0;text-align:center;z-index:10}
+
+.gurcay{font-size:24px;color:#fff;padding-top: 30px;font-family:"Futura";margin-left:30px;text-align:center;}
+
+.inbetween{height:100px}
+
+.dualcap{font-size:30px;color:#000;font-family:"Futura";margin-top:625px;text-align:center}
+
+.dual{width:100%;height:100%;object-fit:contain}
+
+.nick{background-image:url(../visual-art/raffoul-nick.png);background-size:contain}
+
+.shelly{color:#000;font-family:"Futura";margin-top:30px;text-align:left}
+
+.nicky{color:#000;font-family:"Futura";margin-top:710px;text-align:left;padding-left:-100px}
+
+.title-contain{width:100%;height:auto; object-fit:contain; padding-top: 40px;}
+
+.title-2{width:100%; height: auto; object-fit:contain; padding-top: 40px;}
+
+.daria{font-size:30px;color:#000;font-family:"Futura";text-align:center}
+
+.transition{background-image:url(../visual-art/gradient.jpg);background-size:contain}
+
+.lightblue{background-color:#82ccd8}
+
+.half-height{height:500px}
+
+.serene{font-size:30px;color:#000000;font-family:"Futura";text-align:left}
+
+.zeina{color:#000000;font-family:"Futura";margin-top:30px;text-align:left}
+
+.sek{font-size:35px;color:#000;font-family:"Futura";text-align:right}
+
+.name {
+    font-family: "LookingFlowers";
+    color: #222222;
+}
+
+.sito {
+    width: fit-content;
+    height: auto;
+}
+
+.t {
+    font-family: "avenir-roman";
+
+}
+.p {
+    font-family: "Futura";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column2 {
+     float: left;
+     width: 65%;
+     padding: 10px;
+}
+
+.column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+}
+.rasha {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 20px;
+    float: right;
+    background: thistle;
+    width: auto;
+
+}
+
+.lyellow{
+    background-color: #EDCB96;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
